@@ -9,3 +9,12 @@ ___
 - Python-based: Entirely coded in Python.
 ___
 # Brief explanation of how RAG works
+A RAG bot is short for Retrieval-Augmented Generation. This means that we are going to "augment" the knowledge of our LLM with new information that we are going to pass in our prompt. We first vectorize all the text that we want to use as "augmented knowledge" and then look through the vectorized text to find the most similar text to our prompt. We then pass this text to our LLM as a prefix.
+
+![image](https://github.com/Ayushman0Singh/ChatWithWebsite/assets/99126946/6cf90f1d-cb95-4561-8a99-b6163d0c536e)
+
+# Installation
+ ```python
+
+git clone [repository-link]
+cd [repository-directory]
