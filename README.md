@@ -14,7 +14,27 @@ A RAG bot is short for Retrieval-Augmented Generation. This means that we are go
 ![image](https://github.com/Ayushman0Singh/ChatWithWebsite/assets/99126946/6cf90f1d-cb95-4561-8a99-b6163d0c536e)
 
 # Installation
- ```python
 
+Clone this repository
+ ```python
 git clone [repository-link]
 cd [repository-directory]
+```
+
+Install the required packages:
+```python
+pip install -r requirements.txt
+```
+
+Create your own .env file with the following variables:
+```pyhton
+OPENAI_API_KEY=[your-openai-api-key]
+```
+
+# USage
+___
+```python
+streamlit run app.py
+```
+
+**Note:** This project is for educational and research purposes. Ensure to comply with the terms of use and guidelines of the utilized APIs and services.
